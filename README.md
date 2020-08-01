@@ -1,2 +1,2 @@
-# ln379_Delenitors_sih2020
+# ln379_Delenitors
 Official repository for problem statement number LN379 by Team Delenitors
