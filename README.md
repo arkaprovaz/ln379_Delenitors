@@ -49,9 +49,12 @@ Official repository for problem statement number LN379 by Team Delenitors
  - Our solution is highly secured, and there is no chance of data-breach.
  - We have made use of all the recent technologies, this ensures that not much work in manual, which reduces the chances of error.
 ## [IDEA PPT](https://www.canva.com/design/DAEDvV7yrZw/tp2auSNBxI-MPJzJHSykeQ/view?utm_content=DAEDvV7yrZw&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu)
-### Demo
- ![MicrosoftTeams-image (2)](https://user-images.githubusercontent.com/32809211/89124157-79459980-d4f2-11ea-960c-b112f7017e55.png)
-![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/32809211/89124161-7f3b7a80-d4f2-11ea-8f0d-3ecbbc783643.png)
-![MicrosoftTeams-image (4)](https://user-images.githubusercontent.com/32809211/89124164-82366b00-d4f2-11ea-88ba-edc05e00034a.png)
-![MicrosoftTeams-image (5)](https://user-images.githubusercontent.com/32809211/89124166-86fb1f00-d4f2-11ea-90ea-069e372e66c4.png)
+
+
+### Alert Screenshots
+![Screenshot](https://user-images.githubusercontent.com/32836687/89127259-c97c2600-d509-11ea-8276-3a43b9cb766f.jpg)
+
+
+## Technologies that we have used:
+![Technologies](https://user-images.githubusercontent.com/32836687/89127100-a4d37e80-d508-11ea-9800-bb4129e2c5db.jpg)
 
