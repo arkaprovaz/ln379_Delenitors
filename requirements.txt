@@ -1,0 +1,13 @@
+numpy==1.19.0
+sendgrid==6.4.3
+tweepy==3.9.0
+pandas==1.0.5
+requests==2.24.0
+twilio==6.44.0
+Flask_Cors==3.0.8
+Flask==1.1.2
+pickle5==0.0.11
+pyodbc==4.0.30
+waitress==1.4.4
+paho_mqtt==1.5.0
+scikit_learn==0.23.1
