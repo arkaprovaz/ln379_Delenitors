@@ -4,10 +4,9 @@ import datetime
 api_key = "74a5fda94c344940b6b115337202907"
 city = ""
 
-total_forecast = []
-
 
 def get_forecast(city, days):
+    total_forecast = []
     url = f"http://api.weatherapi.com/v1/forecast.json?key={api_key}&q={city}&days={days}"
     res = requests.get(url).json()
     for data in res["forecast"]["forecastday"]:
