@@ -1,33 +1,16 @@
-import requests
-import datetime
-from pprint import pprint
-
-api_key = "74a5fda94c344940b6b115337202907"
-#city = input("Enter your City :")
-city = "Siliguri,WB,IN"
-
-total_out = []
-days = 3
+from weather_api import get_forecast
+from rainfall_model import Rainfall_Model
 
 
-url = f"http://api.weatherapi.com/v1/forecast.json?key={api_key}&q={city}&days={days}"
+def get_pred_water_level(city, days=3):
+    total_forecast = get_forecast(city, days)
 
-
-res = requests.get(url).json()
-for data in res["forecast"]["forecastday"]:
-
-
-    out = {}
-
-    out["date"] = data["date"]
-    out["avg_temp"] = data["day"]["avgtemp_c"]
-    out["max_temp"] = data["day"]["maxtemp_c"]
-    out["min_temp"] = data["day"]["mintemp_c"]
-    out["totalprecip_in"] = data["day"]["totalprecip_in"] 
-    out["daily_will_it_rain"] = data["day"]["daily_will_it_rain"]
-    out["daily_will_it_snow"] = data["day"]["daily_will_it_snow"]
-    
-    total_out.append(out)
-
-
-pprint(total_out)
+    predicted_water_level = []
+    r_model = Rainfall_Model()
+    for precip in total_forecast:
+        data = {}
+        data = precip
+        data["pred_wlevel"] = round(r_model.dam1_rainfall_rise(
+            precip["totalprecip_in"])[0], 3) if precip["daily_will_it_rain"] else 0
+        predicted_water_level.append(data)
+    return predicted_water_level
