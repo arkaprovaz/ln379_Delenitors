@@ -4,7 +4,7 @@ import os
 path = 'models'
 
 
-class rainfall_model:
+class Rainfall_Model:
     def __init__(self):
         self.dam1 = os.path.join(path, 'dam1Model.model')
         self.dam2 = os.path.join(path, 'dam2Model.model')
