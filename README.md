@@ -32,7 +32,11 @@ Official repository for problem statement number LN379 by Team Delenitors
 ### What have we made?
 - We have fabricated a system using sensors and LoRa Wan, which will be placed in different hops throughout the length of the river(where the hydel project is located). Our device will pick real-time data, which will give us information about the weather condition, water-level and other required factors. This in turn will help us in predicting if the water level is safe, if not, alert will be generated automatically.
 ### Workflow
+#### Hardware workflow:
 ![Annotation 2020-08-02 095416](https://user-images.githubusercontent.com/32809211/89115480-42e22d00-d4a6-11ea-9b92-9fe38d03ca8b.png)
+### Regression workflow:
+![Workflow](https://user-images.githubusercontent.com/32809211/89119291-dcbbd100-d4ca-11ea-84a2-76cc4f1cf29f.png)
+
 
 ### What are our public address measures?
  - As soon as the water levels are above danger level, the flood alert will be generated.
