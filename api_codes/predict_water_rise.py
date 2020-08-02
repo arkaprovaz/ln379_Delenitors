@@ -10,7 +10,8 @@ def get_pred_water_level(city, days=3):
     for precip in total_forecast:
         data = {}
         data = precip
-        data["pred_wlevel"] = round(r_model.dam1_rainfall_rise(
-            precip["totalprecip_in"])[0], 3) if precip["daily_will_it_rain"] else 0
+        pred_wlevel = round(r_model.dam1_rainfall_rise(
+            precip["totalprecip_in"])[0], 3)
+        data["pred_wlevel"] = pred_wlevel if pred_wlevel > 0 else 0
         predicted_water_level.append(data)
     return predicted_water_level
