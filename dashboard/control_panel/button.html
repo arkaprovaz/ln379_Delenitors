@@ -12,15 +12,17 @@
   </head>
   <body>
     
-  
     <button id="button">trigger Call</button>
     <button id="button1">trigger SMS</button>
+    <button id="button2">trigger Email</button>
+    <button id="button3">trigger Tweet</button>
     <button id="button4">trigger All</button>
-
 
     <script>
       document.getElementById('button').addEventListener('click', fetchUserCall);
       document.getElementById('button1').addEventListener('click', fetchUserSMS);
+      document.getElementById('button2').addEventListener('click', fetchUserEmail);
+      document.getElementById('button3').addEventListener('click', fetchUserTweet);
       document.getElementById('button4').addEventListener('click', fetchUserAll);
 
       function sleep(milliseconds) {
@@ -30,37 +32,50 @@
                currentDate = Date.now();
         } while (currentDate - date < milliseconds);
       }
-  
-      function fetchUserCall(){
+      
+      function fetchUserCall() {
           fetch('http://localhost:5000/api/v1.0/triggerCall')
               .then(response => response.json())
               .then(json => console.log(json))
       }
 
-      function fetchUserSMS(){
+      function fetchUserSMS() {
           fetch('http://localhost:5000/api/v1.0/triggerSMS')
               .then(response => response.json())
               .then(json => console.log(json))
       }
 
-
-      function fetchUserAll(){
-
-            fetch('http://localhost:5000/api/v1.0/triggerCall')
+      function fetchUserEmail() {
+          fetch('http://localhost:5000/api/v1.0/triggerEmail')
               .then(response => response.json())
               .then(json => console.log(json))
-
-              sleep(500);
-
-            fetch('http://localhost:5000/api/v1.0/triggerSMS')
-              .then(response => response.json())
-              .then(json => console.log(json))
-
-              sleep(500);
-      
-
-
       }
+
+      function fetchUserTweet() {
+          fetch('http://localhost:5000/api/v1.0/triggerTweet')
+              .then(response => response.json())
+              .then(json => console.log(json))
+      }
+
+      function fetchUserAll() {
+
+
+              fetchUserCall()                 
+
+              sleep(500);
+
+              fetchUserSMS()
+
+              sleep(500);
+
+              fetchUserEmail()
+
+              sleep(500)
+
+              fetchUserTweet()  
+            
+      
+         }
 
       
   </script>

@@ -47,12 +47,12 @@ body {
         transition: 0.2s;
     }
 
-    #button2 {
+#button2 {
         background-color:#ff4d4d;
         position: relative;
-        margin: 20px;
+        margin: 10px;
         display: inline-block;
-        padding: 15px 35px;
+        padding: 15px 30px;
         color: white;
         border: red;
         text-transform: uppercase;
@@ -64,12 +64,12 @@ body {
         transition: 0.2s;
     }
 
-    #button3 {
+ #button3 {
         background-color:#ff4d4d;
         position: relative;
-        margin: 20px;
+        margin: 10px;
         display: inline-block;
-        padding: 15px 35px;
+        padding: 15px 30px;
         color: white;
         border: red;
         text-transform: uppercase;
@@ -81,7 +81,8 @@ body {
         transition: 0.2s;
     }
 
-    #button4 {
+
+#button4 {
         background-color:#ff4d4d;
         position: relative;
         margin: 20px;
@@ -140,9 +141,7 @@ button4:hover {
 
 }
 
-@media only screen and (max-width:1024px){
-        body{font-size: 12px;}
-    }
+
 
 
 
