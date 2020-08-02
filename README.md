@@ -49,3 +49,4 @@ Official repository for problem statement number LN379 by Team Delenitors
  - We have ensured 'last-man-communication',we have used every mode of communication, this ensures people without a smartphone also gets the message. We have also included help-line numbers, we have seen that most people are devoid o shelter during such disasters.
  - Our solution is highly secured, and there is no chance of data-breach.
  - We have made use of all the recent technologies, this ensures that not much work in manual, which reduces the chances of error.
+### [Idea ppt](https://www.canva.com/design/DAEDvV7yrZw/tp2auSNBxI-MPJzJHSykeQ/view?utm_content=DAEDvV7yrZw&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu)
