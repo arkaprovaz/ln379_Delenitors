@@ -59,15 +59,15 @@ twilio_config.json
 
 
 
-CRUD.py is responsible for all CREATE, READ, UPDATE, DELETE operations with the Database
-app.py is a flask server that is hosted on azure vm
-email_alert.py is the code to generate and push alert via email
-mqtt_subscriber.py is responsible for getting the data from the mqtt broker and pushing it to the database
-predict_weather_rise.py is responsible for predicting the water level rise with respect to the weather forecast fetched from the weatherapi.com
-predictor.py is a module that is being used by the predict_weather_rise.py
-rainfall_model.py is the module that is for forecasting the water level rise
-tweet.py is responsible for post tweets
-twilio_call_sms.py is the code for generating the call and sms alert
-weather_api.py is the code to hit the api provided by the weatherapi.com and convert it to specific format
+#### CRUD.py is responsible for all CREATE, READ, UPDATE, DELETE operations with the Database
+#### app.py is a flask server that is hosted on azure vm
+#### email_alert.py is the code to generate and push alert via email
+#### mqtt_subscriber.py is responsible for getting the data from the mqtt broker and pushing it to the database
+#### predict_weather_rise.py is responsible for predicting the water level rise with respect to the weather forecast fetched from the weatherapi.com
+#### predictor.py is a module that is being used by the predict_weather_rise.py
+#### rainfall_model.py is the module that is for forecasting the water level rise
+#### tweet.py is responsible for post tweets
+#### twilio_call_sms.py is the code for generating the call and sms alert
+#### weather_api.py is the code to hit the api provided by the weatherapi.com and convert it to specific format
 
 
