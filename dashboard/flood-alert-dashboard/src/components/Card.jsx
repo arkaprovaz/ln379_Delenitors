@@ -23,7 +23,7 @@ function Card(props) {
   }
 
   return (
-    <div className="col-lg-2 col-md-4 mb-4 card-tab">
+    <div className="col-lg-6 col-md-4 mb-4 card-tab">
       <div className={props.color + " card  shadow h-100 py-2"}>
         <div className="card-body">
           <div className="row no-gutters align-items-center">

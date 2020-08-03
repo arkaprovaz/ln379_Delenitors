@@ -1,2 +1,2 @@
-# sih2020-flood-alert-dashboard
-Repository for Smart India Hackathon Dashboard
+# Flood-Alert-Dashboard
+Dashboard for getting realtime data from database.
