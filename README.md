@@ -34,6 +34,9 @@ Official repository for problem statement number LN379 by Team Delenitors
 ### Workflow
 #### Hardware workflow:
 ![Annotation 2020-08-02 095416](https://user-images.githubusercontent.com/32809211/89115480-42e22d00-d4a6-11ea-9b92-9fe38d03ca8b.png)
+### Flow
+![Flow chart](https://user-images.githubusercontent.com/32836687/89149099-37136b00-d579-11ea-8810-5190830833a1.jpg)
+
 ### Regression workflow:
 ![Workflow](https://user-images.githubusercontent.com/32809211/89119291-dcbbd100-d4ca-11ea-84a2-76cc4f1cf29f.png)
 
