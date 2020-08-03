@@ -1,0 +1,167 @@
+
+
+
+body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #f7f7f7;
+        font-family: Consolas;
+
+}
+
+#button {
+    background-color:#ff4d4d;
+    position: relative;
+    margin: 12px;
+    display: inline-block;
+    padding: 15px 35px;
+    color: white;
+    border: red;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold ;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#button1 {
+        background-color:#ff4d4d;
+        position: relative;
+        margin: 20px;
+        display: inline-block;
+        padding: 15px 35px;
+        color: white;
+        border: red;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold ;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+
+#button2 {
+        background-color:#ff4d4d;
+        position: relative;
+        margin: 10px;
+        display: inline-block;
+        padding: 15px 30px;
+        color: white;
+        border: red;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold ;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+
+ #button3 {
+        background-color:#ff4d4d;
+        position: relative;
+        margin: 10px;
+        display: inline-block;
+        padding: 15px 30px;
+        color: white;
+        border: red;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold ;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+
+
+#button4 {
+        background-color:#ff4d4d;
+        position: relative;
+        margin: 20px;
+        display: inline-block;
+        padding: 15px 35px;
+        color: white;
+        border: red;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold ;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+
+
+
+button:hover {
+        color:white;
+        background: hsl(0, 90%, 54%);
+        box-shadow: 0 0 10px hsl(0, 90%, 54%), 0 0 40px hsl(0, 90%, 54%),0 0 80px hsl(0, 90%, 54%)  ;
+
+
+}
+
+button1:hover {
+        color:white;
+        background: hsl(0, 90%, 54%);
+        box-shadow: 0 0 10px hsl(0, 90%, 54%), 0 0 40px hsl(0, 90%, 54%),0 0 80px hsl(0, 90%, 54%)  ;
+
+
+}
+
+button2:hover {
+        color:white;
+        background: hsl(0, 90%, 54%);
+        box-shadow: 0 0 10px hsl(0, 90%, 54%), 0 0 40px hsl(0, 90%, 54%),0 0 80px hsl(0, 90%, 54%)  ;
+
+
+}
+
+button3:hover {
+        color:white;
+        background: hsl(0, 90%, 54%);
+        box-shadow: 0 0 10px hsl(0, 90%, 54%), 0 0 40px hsl(0, 90%, 54%),0 0 80px hsl(0, 90%, 54%)  ;
+
+
+}
+
+button4:hover {
+        color:white;
+        background: hsl(0, 90%, 54%);
+        box-shadow: 0 0 10px hsl(0, 90%, 54%), 0 0 40px hsl(0, 90%, 54%),0 0 80px hsl(0, 90%, 54%)  ;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
