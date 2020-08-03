@@ -1,2 +1,2 @@
-# sih2020-flood-alert-dashboard
-Repository for Smart India Hackathon Dashboard
+# Forecast Data
+Dashboard for Forcast data of Rainfall and water level.
