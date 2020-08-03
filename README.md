@@ -1,3 +1,5 @@
+# Please check out the dev or qa branch. Code will be merged to master once the development is complete
+
 # ln379_Delenitors
 Official repository for problem statement number LN379 by Team Delenitors
 ## Problem Statement
@@ -40,6 +42,12 @@ Official repository for problem statement number LN379 by Team Delenitors
 ### Regression workflow:
 ![Workflow](https://user-images.githubusercontent.com/32809211/89119291-dcbbd100-d4ca-11ea-84a2-76cc4f1cf29f.png)
 
+### Accidental blockage detection workflow:
+![Workflow](![Accidental blockage detection](https://user-images.githubusercontent.com/36500005/89173203-82417400-d5a1-11ea-8b85-45e3da848aaa.jpg)
+
+
+[Demo video](https://drive.google.com/file/d/1t1gvS0L7W64pgO0EJqvrxDgXvRzz4N6p/view?usp=sharing)
+
 ### What are our public address measures?
  - As soon as the water levels are above danger level, the flood alert will be generated.
  - Mails will be sent to every officials.
@@ -52,6 +60,7 @@ Official repository for problem statement number LN379 by Team Delenitors
  - Our solution is highly secured, and there is no chance of data-breach.
  - We have made use of all the recent technologies, this ensures that not much work in manual, which reduces the chances of error.
 ## [IDEA PPT](https://www.canva.com/design/DAEDvV7yrZw/tp2auSNBxI-MPJzJHSykeQ/view?utm_content=DAEDvV7yrZw&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu)
+## [final_mentoring.pptx](https://github.com/arkaprovaz/ln379_Delenitors/files/5015443/final_mentoring.pptx)
 
 
 ### Alert Screenshots
