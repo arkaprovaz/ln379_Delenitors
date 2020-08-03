@@ -40,7 +40,7 @@ Official repository for problem statement number LN379 by Team Delenitors
 ### Regression workflow:
 ![Workflow](https://user-images.githubusercontent.com/32809211/89119291-dcbbd100-d4ca-11ea-84a2-76cc4f1cf29f.png)
 
-![Demo video](https://drive.google.com/file/d/1t1gvS0L7W64pgO0EJqvrxDgXvRzz4N6p/view?usp=sharing)
+[Demo video](https://drive.google.com/file/d/1t1gvS0L7W64pgO0EJqvrxDgXvRzz4N6p/view?usp=sharing)
 
 ### What are our public address measures?
  - As soon as the water levels are above danger level, the flood alert will be generated.
