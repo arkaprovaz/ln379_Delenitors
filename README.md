@@ -40,6 +40,10 @@ Official repository for problem statement number LN379 by Team Delenitors
 ### Regression workflow:
 ![Workflow](https://user-images.githubusercontent.com/32809211/89119291-dcbbd100-d4ca-11ea-84a2-76cc4f1cf29f.png)
 
+### Accidental blockage detection workflow:
+![Workflow](![Accidental blockage detection](https://user-images.githubusercontent.com/36500005/89173203-82417400-d5a1-11ea-8b85-45e3da848aaa.jpg)
+
+
 [Demo video](https://drive.google.com/file/d/1t1gvS0L7W64pgO0EJqvrxDgXvRzz4N6p/view?usp=sharing)
 
 ### What are our public address measures?
